@@ -1,0 +1,63 @@
+#main-cover{
+  text-align: center;
+  background-image: url("images/scanner.jpg");
+  background-position: fixed;
+  background-size: cover;
+  height: 100vh;
+  text-align: left;
+}
+#corTactics{
+  transition:1s;
+}
+#navbrand:hover{
+ border-bottom: none;
+}
+.navbar-brand{
+  padding:0;
+}
+
+
+.navbar{
+  background-color :#545454 !important;
+  font-weight: 400;
+  position: fixed;
+  width:100vw;
+  z-index: 100;
+}
+
+.navbar a{
+  color: white !important; 
+
+
+}
+.navbar li{
+  padding: 10px;
+
+}
+
+#main-title{
+  margin-top: 30px !important;
+  color: white;
+
+}
+.navbar a:hover{
+  /* border-bottom: solid 1px #ff3838; */
+  font-weight: 900;
+}
+
+footer{
+  background:#545454;
+  color: white;
+  font-weight: 700;
+}
+footer a{
+  font-style: bold;
+  color:white;
+}
+
+footer a:hover{
+  color:#ff3838;
+}
+#footer-title{
+  border-bottom: 2px solid #ff3838;
+}
