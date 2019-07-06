@@ -8,6 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.js"
+      integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+      crossorigin="anonymous"></script>
+
     <title>David Caye Imaging</title>
   </head>
   <body>
@@ -37,7 +43,32 @@
       </div>
     </nav>
     <div id = "navbar-hidden-div" style="height:100px"></div>
-    <h1> Contact Form </h1>
+    <div class="container" style="text-align: center; margin-top:40px;"> 
+      <h1 class="display-4" style="font-weight:600"> Contact</h1>
+      <p>Send us a message for a <strong>FREE</strong> consultation today! </p>
+      <img class="img-fluid" src="images/main-logo-grey.jpg" width="200">
+    </div>
+    <div class="container">  
+        <form id="contact" action="" method="post" onsubmit="sendMail()">
+          <h3>CorTacitcs Consultation</h3>
+          <h4>Contact us for free CT consultation</h4>
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <textarea id ="myText" placeholder="Type your message here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+      </div>
     <footer class="page-footer font-small blue pt-4">
 
     <!-- Footer Links -->
