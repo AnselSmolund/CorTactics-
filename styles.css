@@ -39,7 +39,7 @@
 }
 .navbar a:hover{
   /* border-bottom: solid 1px #ff3838; */
-  font-weight: 900;
+  color:black !important;
 }
 
 footer{
@@ -176,7 +176,11 @@ fieldset {
 #contact button[type="submit"]:active {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
-
+#contact-page{
+  background-color: #545454;
+  color:white;
+  
+}
 
 #contact input:focus,
 #contact textarea:focus {
